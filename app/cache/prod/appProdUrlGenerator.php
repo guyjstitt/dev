@@ -13,7 +13,8 @@ use Psr\Log\LoggerInterface;
 class appProdUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerator
 {
     private static $declaredRoutes = array(
-        'guy_cnet_homepage' => array (  0 =>   array (    0 => 'name',  ),  1 =>   array (    '_controller' => 'Guy\\Bundle\\CnetBundle\\Controller\\DefaultController::indexAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'variable',      1 => '/',      2 => '[^/]++',      3 => 'name',    ),    1 =>     array (      0 => 'text',      1 => '/hello',    ),  ),  4 =>   array (  ),),
+        'guy_cnet_homepage' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'Guy\\Bundle\\CnetBundle\\Controller\\DefaultController::indexAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/Home',    ),  ),  4 =>   array (  ),),
+        'guy_cnet_portfolio' => array (  0 =>   array (  ),  1 =>   array (    '_controller' => 'Guy\\Bundle\\CnetBundle\\Controller\\PortfolioController::indexAction',  ),  2 =>   array (  ),  3 =>   array (    0 =>     array (      0 => 'text',      1 => '/Portfolio',    ),  ),  4 =>   array (  ),),
     );
 
     /**
