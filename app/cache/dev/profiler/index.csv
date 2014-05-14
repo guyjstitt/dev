@@ -74,3 +74,7 @@ d53507,::1,GET,http://localhost:82/symfony2/web/app_dev.php/Portfolio,1400050116
 114c4d,::1,GET,http://localhost:82/symfony2/web/app_dev.php/Home,1400050225,
 9533bb,::1,GET,http://localhost:82/symfony2/web/app_dev.php/Portfolio,1400050328,
 cb4dc3,::1,GET,http://localhost:82/symfony2/web/app_dev.php/Home,1400055975,
+e5f388,::1,GET,http://localhost:82/symfony2/web/app_dev.php/Home,1400056451,
+6d0cab,::1,GET,http://localhost:82/Symfony2/web/app_dev.php/Portfolio,1400056453,
+fa5c71,::1,GET,http://localhost:82/Symfony2/web/app_dev.php/Home,1400056453,
+68b738,::1,GET,http://localhost:82/Symfony2/web/app_dev.php/Portfolio,1400056454,
