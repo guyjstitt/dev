@@ -1,0 +1,16 @@
+[12-May-2014 12:50:49 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException' with message 'You have requested a non-existent service "sensio_distribution.webconfigurator".' in /home/guyjstitt/public_html/Symfony/app/bootstrap.php.cache:2028
+Stack trace:
+#0 /home/guyjstitt/public_html/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/SensioDistributionBundle.php(28): Symfony\Component\DependencyInjection\Container->get('sensio_distribu...')
+#1 /home/guyjstitt/public_html/Symfony/app/bootstrap.php.cache(2274): Sensio\Bundle\DistributionBundle\SensioDistributionBundle->boot()
+#2 /home/guyjstitt/public_html/Symfony/app/bootstrap.php.cache(2302): Symfony\Component\HttpKernel\Kernel->boot()
+#3 /home/guyjstitt/public_html/Symfony/web/app.php(27): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#4 {main}
+  thrown in /home/guyjstitt/public_html/Symfony/app/bootstrap.php.cache on line 2028
+[12-May-2014 12:51:23 UTC] PHP Fatal error:  Uncaught exception 'Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException' with message 'You have requested a non-existent service "sensio_distribution.webconfigurator".' in /home/guyjstitt/public_html/Symfony/app/bootstrap.php.cache:2028
+Stack trace:
+#0 /home/guyjstitt/public_html/Symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/SensioDistributionBundle.php(28): Symfony\Component\DependencyInjection\Container->get('sensio_distribu...')
+#1 /home/guyjstitt/public_html/Symfony/app/bootstrap.php.cache(2274): Sensio\Bundle\DistributionBundle\SensioDistributionBundle->boot()
+#2 /home/guyjstitt/public_html/Symfony/app/bootstrap.php.cache(2302): Symfony\Component\HttpKernel\Kernel->boot()
+#3 /home/guyjstitt/public_html/Symfony/web/app.php(27): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#4 {main}
+  thrown in /home/guyjstitt/public_html/Symfony/app/bootstrap.php.cache on line 2028

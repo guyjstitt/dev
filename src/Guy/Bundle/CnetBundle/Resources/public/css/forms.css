@@ -1,0 +1,62 @@
+/*
+Syntax error: Invalid CSS after " * ": expected "{", was "<!--[if IE]>"
+        on line 1 of G:/Users/Guy/PhpstormProjects/Symfony2/src/Guy/Bundle/CnetBundle/Resources/public/sass/forms.scss
+
+1: G:/Users/Guy/PhpstormProjects/Symfony2/src/Guy/Bundle/CnetBundle/Resources/public/sass/forms.scss
+
+Backtrace:
+G:/Users/Guy/PhpstormProjects/Symfony2/src/Guy/Bundle/CnetBundle/Resources/public/sass/forms.scss:1
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:1149:in `expected'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:1080:in `tok!'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:534:in `block'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:529:in `ruleset'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:543:in `block_contents'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:31:in `create'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:26:in `block in created'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `each'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `created'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:17:in `refresh'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:44:in `call'
+G:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
+G:/Ruby193/bin/compass:23:in `load'
+G:/Ruby193/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \" * \": expected \"{\", was \"<!--[if IE]>\"\A         on line 1 of G:/Users/Guy/PhpstormProjects/Symfony2/src/Guy/Bundle/CnetBundle/Resources/public/sass/forms.scss\A \A 1: G:/Users/Guy/PhpstormProjects/Symfony2/src/Guy/Bundle/CnetBundle/Resources/public/sass/forms.scss"; }
