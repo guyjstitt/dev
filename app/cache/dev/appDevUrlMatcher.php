@@ -136,8 +136,13 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
 
         // guy_cnet_homepage
-        if (0 === strpos($pathinfo, '/hello') && preg_match('#^/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'guy_cnet_homepage')), array (  '_controller' => 'Guy\\Bundle\\CnetBundle\\Controller\\DefaultController::indexAction',));
+        if ($pathinfo === '/Home') {
+            return array (  '_controller' => 'Guy\\Bundle\\CnetBundle\\Controller\\DefaultController::indexAction',  '_route' => 'guy_cnet_homepage',);
+        }
+
+        // guy_cnet_portfolio
+        if ($pathinfo === '/Portfolio') {
+            return array (  '_controller' => 'Guy\\Bundle\\CnetBundle\\Controller\\PortfolioController::indexAction',  '_route' => 'guy_cnet_portfolio',);
         }
 
         // _welcome
